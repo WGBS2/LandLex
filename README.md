@@ -1,0 +1,1 @@
+# LandLex This file includes data from three words, colline, mont and montagne, as described in a series of French legacy dictionaries. The file is in TEI following broadly the recommendations of TEI-Lex0
