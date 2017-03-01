@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="teixdico.css"?>
+<?xml-model href="basnage1701.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>'Hill' and 'Mountain' as found in French Dictionaries: Digital version</title>
+            <respStmt><resp>TEI encoding</resp><name>Geoffrey Williams</name></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>LandLex</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Various listed dictionary sources</p>
+         </sourceDesc>
+         
+      </fileDesc>
+      <encodingDesc>
+      <classDecl>
+          
+          
+          
+          <taxonomy n="French dictionaries"><listBibl>
+             <biblStruct type="book" xml:id="Nicot1606" corresp="http://zotero.org/groups/815103/items/UBAX4V9R"><monogr><title level="m">Thresor de la langue francoyse tant ancienne que moderne : auquel... sont les mots propres de marine, vénerie et faulconnerie.... Avec une) Grammaire francoyse et latine et le recueil des vieux proverbes de la France. Ensemble le Nomenclator ([Reprod.]) / ramassez par Aimar de Ranconnet,... ; revu et augmenté... par Jean Nicot,...[Jean Masset] ; de Junius...</title><author><forename>Jean</forename><surname>Nicot</surname></author><author><forename>Aimar</forename><surname>de Ranconnet</surname></author><imprint><pubPlace>Paris</pubPlace><publisher>David Doucet</publisher><date>1606</date><note type="url">http://catalogue.bnf.fr/ark:/12148/cb34696509r</note></imprint></monogr></biblStruct>
+             <biblStruct type="book" xml:id="Furetière1690" corresp="http://zotero.org/groups/815103/items/D25662K3"><monogr><title level="m">Dictionnaire Universel, contenant généralement tous les mots françois tant vieux que modernes et les termes des sciences et des arts</title><author><forename>Antoine</forename><surname>Furetière</surname></author><imprint><pubPlace>La Haye et Rotterdam</pubPlace><date>1690</date><note type="url">http://gallica.bnf.fr/ark:/12148/bpt6k50614b</note></imprint></monogr></biblStruct>
+             <biblStruct type="book" xml:id="Furetière1701" corresp="http://zotero.org/groups/815103/items/J83QUNMR"><monogr><title level="m">Dictionnaire universel, contenant généralement tous les mots françois tant vieux que modernes, &amp; les termes des sciences et des arts. Tome 1 / ,... par feu messire Antoine Furetière,... 2e édition revue, corrigée et augmentée par M. Basnage de Bauval</title><author><forename>Antoine</forename><surname>Furetière</surname></author><imprint><pubPlace>La Haye et Rotterdam</pubPlace><biblScope unit="volume">Tome 1 A-D</biblScope><publisher>Arnoud et Reinier Leers</publisher><date>1701</date><note type="url">http://gallica.bnf.fr/ark:/12148/bpt6k5841680f</note></imprint></monogr></biblStruct>
+             <biblStruct type="book" xml:id="Académie_Française1694a" corresp="http://zotero.org/groups/815103/items/U9TC58XR"><monogr><title level="m">Le dictionnaire de l'Académie françoise, dédié au Roy. T. 2. L-Z</title><author><name>Académie Française</name></author><edition>1ère</edition><imprint><pubPlace>Paris</pubPlace><publisher>Vve J. B. Coignard et J. B. Coignard</publisher><date>1694</date><note type="url">http://catalogue.bnf.fr/ark:/12148/cb35153876f</note></imprint></monogr></biblStruct>
+             <biblStruct type="book" xml:id="Académie_Française1694b" corresp="http://zotero.org/groups/815103/items/KG28UJ9K"><monogr><title level="m">Le dictionnaire de l'Académie françoise, dédié au Roy. T. 1. A-L</title><author><name>Académie Française</name></author><edition>Ière</edition><imprint><pubPlace>Paris</pubPlace><publisher>Vve J. B. Coignard et J. B. Coignard</publisher><date>1694</date><note type="url">http://catalogue.bnf.fr/ark:/12148/cb35153876f</note></imprint></monogr></biblStruct>
+             <biblStruct type="book" xml:id="Académie_Française1762b" corresp="http://zotero.org/groups/815103/items/PND29D43"><monogr><title level="m">Dictionnaire de l'Académie françoise.... Tome 2</title><author><name>Académie Française</name></author><edition>4ème</edition><imprint><pubPlace>Paris</pubPlace><publisher>Vve B. Brunet</publisher><date>1762</date><note type="url">http://catalogue.bnf.fr/ark:/12148/cb351535262</note></imprint></monogr></biblStruct>
+             <biblStruct type="book" xml:id="Académie_Française1762a" corresp="http://zotero.org/groups/815103/items/ETQNVKJM"><monogr><title level="m">Dictionnaire de l'Académie françoise.... Tome 1</title><author><name>Académie Française</name></author><edition>4ème</edition><imprint><pubPlace>Paris</pubPlace><publisher>Vve B. Brunet</publisher><date>1762</date><note type="url">http://catalogue.bnf.fr/ark:/12148/cb351535262</note></imprint></monogr></biblStruct>
+             <biblStruct type="book" xml:id="Académie_Française1798a" corresp="http://zotero.org/groups/815103/items/KBJ5JGBX"><monogr><title level="m">Dictionnaire de l'Académie française... Tome 1 / revu, corr. et augm. par l'Académie elle-même</title><author><name>Académie Française</name></author><edition>5ème</edition><imprint><pubPlace>Paris</pubPlace><publisher>J. J. Smits</publisher><date>1798</date><note type="url">http://catalogue.bnf.fr/ark:/12148/cb35474154c</note></imprint></monogr></biblStruct>
+             <biblStruct type="book" xml:id="Académie_Française1798b" corresp="http://zotero.org/groups/815103/items/N35MBSXM"><monogr><title level="m">Dictionnaire de l'Académie française... Tome 2 / revu, corr. et augm. par l'Académie elle-même</title><author><name>Académie Française</name></author><edition>5ème</edition><imprint><pubPlace>Paris</pubPlace><publisher>J. J. Smits</publisher><date>1798</date><note type="url">http://catalogue.bnf.fr/ark:/12148/cb35474154c</note></imprint></monogr></biblStruct>
+             <biblStruct type="book" xml:id="Larousse1856" corresp="http://zotero.org/groups/815103/items/QWNXPVTW"><monogr><title level="m">Nouveau dictionnaire de la langue française</title><author><name>Larousse</name></author><edition>3</edition><imprint><pubPlace>Paris</pubPlace><publisher>Larousse et Boyer</publisher><date>1856</date><note type="accessed">2016-11-15</note><note type="url">http://catalogue.bnf.fr/ark:/12148/cb42376195z</note></imprint></monogr></biblStruct>
+             <biblStruct type="book" xml:id="Littré1873" corresp="http://zotero.org/groups/815103/items/SR8P4QKG"><monogr><title level="m">Dictionnaire de la langue Française</title><author><forename>Émile</forename><surname>Littré</surname></author><imprint><pubPlace>Paris</pubPlace><biblScope unit="volume">Tome 1 A-C</biblScope><publisher>Hachette</publisher><date>1873</date></imprint></monogr></biblStruct>
+             <biblStruct type="book" xml:id="Imbs1971" corresp="http://zotero.org/groups/815103/items/24IRP62U"><monogr><title level="m">Trésor de la langue française informatisé</title><author><forename>Paul</forename><surname>Imbs</surname></author><author><forename>Bernard</forename><surname>Quemada</surname></author><imprint><pubPlace>Nancy</pubPlace><publisher>ATILF</publisher><date>1971</date><note type="url">http://atilf.atilf.fr/tlf.htm</note></imprint></monogr></biblStruct>
+          </listBibl>
+          </taxonomy>
+           
+           <taxonomy n="Cited_Authors"><category n="Cited_Authors"><catDesc>
+                <persName xml:base="https://fr.wikipedia.org/wiki/Gilles_Ménage_(grammairien)" xml:id="Men_ISN0000000080815971">Gilles Menage</persName>
+                <persName xml:base="https://fr.wikipedia.org/wiki/Varron_(écrivain)" xml:id="Var_ISN0000000121452047">Varron</persName>
+                <persName xml:base="https://fr.wikipedia.org/wiki/Augustin_d'Hippone" xml:id="St_A_ISN0000000121376443">Saint Augustin</persName>
+                <persName xml:base="https://fr.wikipedia.org/wiki/Nicolas_Perrot_d'Ablancourt" xml:id="Abl_ISN0000000107866286">Nicolas Perrot d'Ablancourt</persName>
+                <persName xml:base="https://fr.wikipedia.org/wiki/François-René_de_Chateaubriand" xml:id="Chat_ISN0000000121192089">François René de Chateaubriant</persName>
+                <persName xml:base="https://fr.wikipedia.org/wiki/Colette" xml:id="Col_ISN0000000121380055">Colette</persName>
+                <persName xml:base="https://fr.wikipedia.org/wiki/Romain_Rolland" xml:id="Roll_ISN0000000121386406">Romain Rolland</persName>
+                <persName xml:base="https://fr.wikipedia.org/wiki/Maurice_Barrès" xml:id="Barres_ISN0000000121371466">Maurice Barrès</persName>
+                <persName xml:base="https://fr.wikipedia.org/wiki/Pierre_Belon" xml:id="Belon_ISN000000011150910X">Pierre Belon</persName>
+                <persName xml:base="https://fr.wikipedia.org/wiki/Paul_Bourget" xml:id="Bourget_ISN0000000121002708">Paul Bourget</persName>
+                <persName xml:base="https://fr.wikipedia.org/wiki/Julien_Gracq" xml:id="Gracq_ISN0000000121434842">Julien Gracq</persName>
+                <persName xml:base="https://fr.wikipedia.org/wiki/René_Huyghe" xml:id="Huygue_ISN000000010866482X">René Huyghe</persName>
+                <persName xml:base="https://fr.wikipedia.org/wiki/Guy_de_Maupassant" xml:id="Maup_ISN0000000121258201">Guy de Maupassant</persName>
+                <persName xml:base="https://fr.wikipedia.org/wiki/Louis-Hyacinthe_Bouilhet" xml:id="Bouilhet_ISN0000000117738616">Louis-Hyacinthe Bouilhet</persName>
+                <persName xml:base="https://fr.wikipedia.org/wiki/Alphonse_de_Lamartine" xml:id="Lamart_ISN0000000121441161">Alphonse de Lamartine</persName>
+                <persName xml:base="https://fr.wikipedia.org/wiki/Albert_de_Lapparent" xml:id="Lapparent_ISN000000012120991X">Albert de Lapparent</persName>
+                <persName xml:base="https://fr.wikipedia.org/wiki/Charles_Combaluzier" xml:id="Combaluzier_ISN0000000364660676">Charles Combaluzier</persName>
+                <persName xml:base="https://fr.wikipedia.org/wiki/André_Chénier" xml:id="Chenier_ISN0000000121288574">André Chénier</persName>
+             </catDesc>
+            </category></taxonomy>
+         
+         <taxonomy n="Cited_Works"><listBibl>
+            <bibl xml:base="https://fr.wikisource.org/wiki/Œuvres_poétiques_de_Chénier/Moland,_1889/Élégies" xml:id="Chenier_Elegies"><title>Elegies</title><author ana="#Chenier_ISN0000000121288574">André Chenier</author></bibl> 
+            <bibl xml:id="Introduction_a_la_geologie_1961"><title>Introduction à la géologie</title><author ana="#Combaluzier_ISN0000000364660676">Charles Combaluzier</author><date>1961</date></bibl>
+            <bibl xml:id="Abrege_de_Geologie"><title>Abrégé de geologie</title><author ana="#Lapparent_ISN000000012120991X">Albert de Lapparent</author></bibl>
+            <bibl xml:id="La_chute_d_un_ange_1838"><title>La chute d'un ange</title><author ana="#Lamart_ISN0000000121441161">Alphonse Marie Louis de Prat de Lamartine</author><date>1861</date></bibl>
+            <bibl xml:base="ark:/12148/bpt6k548365 " xml:id="Dernieres_chansons"><title>Dernières chansons</title><author>Louis Hyacinthe Bouilhet</author><date>1872</date></bibl>
+            <bibl xml:base="https://fr.wikipedia.org/wiki/Le_Horla_(recueil)" xml:id="Maupassant_Horla"><title>Le Horla</title><author ana="#Maup_ISN0000000121258201">Guy de Maupassant</author></bibl>
+            <bibl xml:id="Huygue_dialogue"><title>Dialogue avec le visible</title><author ana="#Huygue_ISN000000010866482X">René Huyghe</author><date>1955</date></bibl>
+            <bibl xml:base="https://fr.wikipedia.org/wiki/Le_Rivage_des_Syrtes" xml:id="Rivage_des_syrtes_1951"><title>Le rivage des syrtes</title><author ana="#Gracq_ISN0000000121434842">Julien Gracq</author><date>1951</date></bibl>
+            <bibl xml:base="https://fr.wikipedia.org/wiki/Dialogues_de_bêtes" xml:id="Dialog_betes_1905"><title>Dialogues de bêtes</title><author ana="#Col_ISN0000000121380055">Collette</author><date>1905</date></bibl>
+            <bibl xml:base="https://fr.wikipedia.org/wiki/Essai_sur_les_révolutions" xml:id="Essai_Revol_1797"><title>Essai sur les révolutions</title><author ana="#Chat_ISN0000000121192089">Chateaubriand</author><date>1797</date></bibl>
+            <bibl xml:base="https://fr.wikipedia.org/wiki/Jean-Christophe_(roman)_Buisson_Ardent" xml:id="J_Chr_Buisson_ard_1911"><title>Jean-Christophe (Roman) - Buisson Ardente</title><author ana="#Roll_ISN0000000121386406">Romain Rolland</author><date>1911</date></bibl>
+            <bibl xml:base="https://fr.wikipedia.org/wiki/La_Colline_inspirée" xml:id="Colline_insp"><title>La Colline inspirée</title><author ana="#Barres_ISN0000000121371466">Maurice Barrès</author><date>1913</date></bibl>
+            <bibl xml:base="ark:/12148/btv1b8608302w" xml:id="Nature_des_oyseaux"><title>La nature des oyseaux</title><author ana="#Belon_ISN000000011150910X">Pierre Belon</author><date>1555</date></bibl>
+            <bibl xml:base="https://fr.wikipedia.org/wiki/Essais_de_psychologie_contemporaine" xml:id="Bourget_essais_1883"><title>Essais de psychologie contemporaine</title><author ana="#Bourget_ISN0000000121002708">Paul Bourget</author><date>1883</date></bibl>
+            
+         </listBibl></taxonomy>
+             
+        <taxonomy n="roots"><category><catDesc>
+           <rs xml:id="root_collin" xml:lang="Fr">collin</rs>
+           <rs xml:id="root_colin" xml:lang="pt">colin</rs>
+        </catDesc></category></taxonomy>
+       
+       <taxonomy n="etymon"><category><catDesc><rs xml:id="etym_collin" xml:lang="lat"></rs></catDesc></category></taxonomy>
+       
+       <taxonomy n="Prototype"><category>
+          <gloss xml:id="light_slope">light slope</gloss>
+          <gloss xml:id="above_plain">above the plain</gloss>
+          <gloss xml:id="small_mountain">small mountain</gloss>
+          <gloss xml:id="low_height">low height</gloss>
+          <gloss xml:id="raised_ground">raised ground</gloss>
+          <gloss xml:id="not_valley">not valley</gloss>
+          <gloss xml:id="not_plain">not plain</gloss>
+          <gloss xml:id="lower_than_mountain">lower than mountain</gloss>
+          <gloss xml:id="piece_of_land">piece of land</gloss>
+          <gloss xml:id="great_height">great height</gloss>
+          <gloss xml:id="mass_of_earth">mass of earth</gloss>
+          <gloss xml:id="mass_of_rock">mass of rock</gloss>
+          <gloss xml:id="above_sea_level">above sea level</gloss>
+          <gloss xml:id="above_ground_level">above ground level</gloss>
+          <gloss xml:id="rugged_terrain">rugged terrain</gloss>
+          <gloss xml:id="followed_by_proper_name">followed by proper name</gloss>
+          <gloss xml:id="natural_raised_ground">natural raised ground</gloss>
+          <gloss xml:id="isolated">isolated</gloss>
+          <gloss xml:id="anticlinal">anticlinal fold</gloss>
+          <gloss xml:id="higher_than_surrounds">higher than surrounds</gloss>
+          <gloss xml:id="caused_by_rising_of_ground">caused by rising of ground</gloss>
+          <gloss xml:id="major_difference_of_level">major difference of level between top and bottom</gloss>
+          <gloss xml:id="has_summit">has summit</gloss>
+          <gloss xml:id="above_valley">above valley</gloss>
+       </category></taxonomy>
+       </classDecl>  
+        
+      </encodingDesc>
+      <profileDesc>
+        
+         
+         
+      </profileDesc>
+   </teiHeader>
+  <text>
+      <body n="French" xml:lang="Fr">
+        
+         
+         <div n="colline" xml:id="Colline"><head>Colline</head>
+            
+            <entry ana="#Colline #root_collin #etym_collin"><ref ana="#Nicot1606">Nicot</ref><form><orth>Coline</orth></form>
+               <sense><def>Collis</def></sense>
+            
+            </entry>
+            <entry ana="#Colline"><ref ana="#Furetière1690">Furetiere</ref>
+               <form><orth></orth></form>
+               <sense><def><seg corresp="#light_slope">Petite coste </seg>élevée  <seg corresp="#above_plain"> au dessus de la <ref corresp="#plaine">plaine</ref>. </seg></def>
+                <cit type="example"><quote>Les vignobles sont ordinairement sur les <hi>collines</hi>.</quote></cit>
+                <cit type="example"><quote> On a fait ce bastiment sur la <hi>colline</hi> pour avoir l'avantage de la veuë, et le moyen d'y faire des terrasses. </quote></cit>
+                 <etym>Ce mot vient de <foreign xml:lang="lat">collina</foreign>, diminutif de <foreign xml:lang="lat">collis</foreign>.
+                    <bibl ana="#Men_ISN0000000080815971">Menage.</bibl></etym></sense>
+               <sense><usg type="proverb">On dit proverbialement, qu'un homme a gagné la colline, 
+                  pour dire, qu'il a pris la fuitte, qu'il s'est mis en lieu de seureté.</usg></sense></entry>
+            
+            <entry ana="#Colline"><ref ana="#Furetière1701">Basnage</ref>
+               <form><orth>COLLINE</orth><gramGrp><pos>s</pos><gen>f</gen></gramGrp><pron>s.f. Ne prononcez point la double l.</pron></form>
+               <sense><def><seg corresp="#light_slope">Petite coste</seg> élevée <seg corresp="#above_plain">au dessus de la <ref corresp="#plaine"></ref>plaine.</seg> </def>
+                  <cit type="example"><quote>Les vignobles sont ordinairement sur les <hi>collines</hi>.</quote></cit>
+                  <cit type="example"><quote> On a fait ce bastiment sur la <hi>colline</hi> pour avoir l'avantage de la veuë, et le moyen d'y faire des terrasses. </quote></cit>
+                  <etym>Ce mot vient de <foreign xml:lang="lat">collina</foreign>, diminutif de <foreign xml:lang="lat">collis</foreign>.
+                     <bibl ana="#Men_ISN0000000080815971">MEN</bibl> <name ana="#Var_ISN0000000121452047">Varron</name> dit que à <foreign xml:lang="lat">colendo colles appelleront</foreign>; c’est à dire, 
+                     que le nom de colline, vient du culte qu’on rendait autrefois aux collines. 
+                     <name ana="#St_A_ISN0000000121376443">St. Augustin</name> parle d’une Déesse colline que l’on adorait.</etym></sense>
+               <sense><usg type="proverb">On dit proverbialement, <mentioned n="proverb">qu'un homme a gagné la colline, </mentioned>
+                  pour dire, qu'il a pris la fuitte, qu'il s'est mis en lieu de seureté.</usg></sense>
+            </entry>
+            
+            <entry ana="#Colline"><ref ana="#Académie_Française1694a">Académie Française 1694</ref>
+               <form><orth>COLLINE</orth></form>
+               <sense><def><seg corresp="#small_mountain #low_height">Petite montagne </seg><seg corresp="#light_slope">qui s'esleve doucement </seg><seg corresp="#above_plain">au dessus de la plaine. </seg></def>
+                  <seg>Longue colline.</seg>
+                  <seg>petite colline.</seg>
+                  <seg>belle colline.</seg>
+                  <seg>le haut de la colline.</seg>
+                  <seg>le pied, le bas de la colline.</seg>
+                  <seg>le penchant de la colline.</seg>
+                  <seg>colline plantée de vignes.</seg>
+                  <seg>colline plantée, ou qui est en vignoble ou en cerisiers.</seg></sense>
+               <sense><usg>On dit prov. Gagner la colline, pour dire, S'enfuir.</usg>
+                  <cit type="example"><quote>Il a gagné la colline.</quote></cit>
+                  <cit type="example"><quote>je luy ay fait gagner la colline.</quote></cit>
+                  </sense></entry>
+            <entry ana="#Colline"><ref ana="#Académie_Française1798a">Académie Française 1798</ref>
+               <form><orth>COLLINE</orth><gramGrp><pos>s</pos><gen>f</gen></gramGrp><pron>On pron. Coline.</pron></form>
+               <sense><def><seg corresp="#small_mountain #low_height">Petite montagne</seg> qui <seg corresp="#light_slope">s'esleve doucement </seg><seg corresp="#above_plain">au dessus de la plaine. </seg></def>
+                  <seg>Longue colline.</seg>
+                  <seg>petite colline.</seg>
+                  <seg>belle colline.</seg>
+                  <seg>le haut de la colline.</seg>
+                  <seg>le pied, le bas de la colline.</seg>
+                  <seg>le penchant de la colline.</seg>
+                  <seg>colline plantée de vignes.</seg></sense>
+               <sense><usg> Les Poëtes appellent le Parnasse, double colline.</usg></sense>
+            </entry>
+            <entry ana="#Colline"><ref ana="#Larousse1856">Larousse 1856</ref>
+               <form><orth>COLLINE</orth><gramGrp><pos>n</pos><gen>f</gen></gramGrp>></form>
+            <def><seg corresp="#small_mountain #low_height">Petite montagne </seg>qui va <seg corresp="#light_slope">en pente douce</seg></def></entry>
+            
+            <entry><ref>Littré</ref><form><orth>Colline</orth></form>
+               <sense>
+                  <def>Hauteur qui s'élève au-dessus de la plaine. </def>
+                  <seg type="collocations">Le haut, le pied d'une colline.</seg>
+                  <cit><quote>"Ô muses, accourez ; solitaires divines, Amantes des ruisseaux, des grottes, des collines", 
+                     </quote><bibl ana="#Chenier_ISN0000000121288574"> [Chénier, <title ana="#Chenier_Elegies">Élég. XI</title>]</bibl></cit>
+               </sense>
+             <sense><usg>Poétiquement.</usg><def>La double colline, le Parnasse.</def>
+                  </sense></entry>
+            
+            <entry ana="#Colline"><ref ana="#Imbs1971">TLFi</ref>
+            <form><orth>COLLINE</orth><gramGrp><pos>Subst.</pos><gen>fém</gen></gramGrp></form>
+               <sense><def><seg corresp="#low_height">Relief de faible hauteur </seg>dont <seg corresp="#light_slope">la pente est généralement douce.</seg></def>
+               <cit type="citation"><quote>Les sept collines de Rome. La colline du Golgotha </quote><bibl ana="#Bourget_ISN0000000121002708">(P. BOURGET, <title ana="#Bourget_essais_1883">Essais de psychol. contemp.</title>, 1883, p. 34).</bibl></cit>
+               <cit type="citation"><quote>Une colline assez raide  la seule saillie de ce plateau nivelé (...) se profilait devant nous </quote><bibl ana="#Gracq_ISN0000000121434842">(GRACQ, <title ana="#Rivage_des_syrtes_1951">Le Rivage des Syrtes,</title> 1951, p. 162)</bibl></cit>
+               <cit type="citation"><quote>L'étendue morne de la plaine où il s'est passé quelque chose, le mol soulèvement des collines à l'horizon </quote><bibl>(HUYGHE, Dialogue avec le visible, 1955, p. 228) </bibl></cit>
+               <cit type="citation"><quote>La Lorraine possède un de ces lieux inspirés [où souffle l'esprit]. C'est la colline de Sion-Vaudémont, faible éminence sur une terre la plus usée de France, sorte d'autel dressé au milieu du plateau qui va des falaises champenoises jusqu'à la chaîne des Vosges.
+                  </quote><bibl ana="#Barres_ISN0000000121371466">BARRÈS, <title ana="#Colline_insp">La Colline inspirée,</title> 1913, p. 73.</bibl></cit></sense>
+               <sense>
+                  <seg n="collocations">Crête, flanc, pente, pied, sommet d'une colline; colline de sable (cf. dune); monter, descendre une colline.</seg>
+               </sense>
+               <etym>1555 Colline (P. BELON, Nature des oyseaux, 154 ds R. Philol. fr., t. 43, p. 185). Empr., prob. par l'intermédiaire de l'ital. collina « id. » (dep. le XIVe s., M. Villani ds BATT.; P. Belon voyagea en Italie), au b. lat. collina issu de loca collina, collinus étant dér. de collis « colline ».</etym>
+            </entry>
+           
+         </div>
+         <div n="Mont" xml:id="Mont"><head>Mont</head>
+            
+            <entry ana="#Mont">
+               <ref ana="#Nicot1606">Nicot</ref>
+               <form><orth>MONT</orth></form>
+               <sense><def>Un Mont, ou <ref type="synonym">Montaigne</ref>, et toute chose ayant forme de montaigne, <foreign>Mons montis</foreign>.</def>
+               <note>
+                  <cit type="example"><quote>Passer les monts,</quote><cit type="translation"><quote>Traiicere se Alpes.@</quote></cit></cit>
+                  <cit type="example"><quote>Qui demeure de la les monts,</quote><cit type="translation"><quote>Transmontanus, Transalpinus</quote></cit></cit>
+               
+                  <seg>Jusques par dela les monts, Trans Alpes vsque transfertur.</seg>
+                  <seg>Deça les monts, <foreign>Cisalpina Gallia.</foreign></seg>
+                  <seg>Promettre monts et vaulx, <foreign>Montes aureos polliceri.</foreign></seg>
+                  <seg>Mont noir, ou Monte negro, <foreign>Amanus</foreign>.</seg>
+                  <seg>En mont, c'est à dire en hault, comme qui diroit <foreign>Ad montem.</foreign></seg>
+                  <seg>Du mont à val, c'est à dire, du hault en bas, quasi <foreign>De monte in vallem.</foreign></seg></note></sense>
+               <etym> Mont, ou Moult, Car il vient du Latin Multum, adverbe, quand il est joinct à l'adjectif, se prend pour Valde, comme, Il est moult docte, Valde doctus, Si fait aussi quand il a diction significative de temps, Moult tard, moult tost. Mais quand il est joinct à un substantif, mesmes en cas de multitude, Il s'expose par Multum, combien que les Latins employent cet adverbe Multum esdits deux endroits, comme, Il est moult d'hommes, de grain; Il y a moult de temps que je suis venu, Iam dudum veni. L'Italien dit Molto, l'Espagnol Muy et Mucho, sont plus esloignez.
+                  </etym>
+               <note><seg>C'est mont, Respondentis est affirmatio, id est, Multum. Latine dicimus Maxime. </seg></note>
+             
+            </entry>
+           
+            <entry ana="#Mont"><ref ana="#Furetière1690">Furetière</ref>
+               <form><orth>MONT</orth></form>
+               <sense><def><seg corresp="#great_height #mass_of_earth #mass_of_rock">Grande élevation de terre ou de roches </seg><seg corresp="#above_sea_level">au dessus du niveau de la mer,</seg><seg corresp="#above_ground_level">du rez de chaussée. </seg> </def>
+                  <note>Les monts fameux dans l’Ecriture sont le mont Sinai, Oreb, le mont Liban, le mont Thabor, &amp; d’Olivet; chez les Poëtes, le mont Parnasse ou le mont jumeau, au double sommet, le sejour des Muses; le mont Olympique, que les Poëtes prennent souvent le le Ciel; chez les Geographes, le mont Atlas, dont ils ont emprunté le nom pour faire un recueil des descriptions des parties de la terre, comme si de son sommet on la decouvroit toute entiere. Chez les Pilotes, Teneriffe le mont le plus haut &amp; la table qu’on descouvre de 50. lieuës en mer, quoi qu’il soit 50. lieuës dans les terres vers le Cap de Bonne esperance.</note></sense></entry>
+            
+            <entry ana="#Mont"><ref ana="#Furetière1701"> Basnage</ref>
+         <form><orth>MONT</orth><gramGrp><pos>s</pos><gen>m</gen></gramGrp></form>
+         <sense><def><seg corresp="#great_height #mass_of_earth #mass_of_rock">Grande élevation de terre ou de roches</seg> 
+            <seg corresp="#above_sea_level">au dessus du niveau de la mer</seg>, <seg corresp="#above_ground_level">du rez de chaussée.</seg></def>
+            <note> <seg corresp="#followed_by_proper_name">Il faut remarquer que ce mot ne se dit guere en prose à moins qu’il ne soit accompagné d’un nom propre</seg>...</note></sense></entry>
+         
+         <entry ana="#Mont"><ref ana="#Académie_Française1762a">Academie Française 1762</ref>
+            <form><orth>MONT.</orth><gramGrp><pos>s.</pos><gen>m. </gen></gramGrp></form>
+            <sense><def><seg corresp="#mass_of_earth #mass_of_rock">Grande masse de terre ou de roche,</seg> <seg corresp="#great_height #above_ground_level">fort élevée au-dessus du reste de la surface de la terre. </seg></def>
+               <note>Il faut observer que ce mot ne se dit guère en prose qu'avec un nom propre, comme, <seg type="proper_noun">Le Mont Etna. Le Mont Cenis. Les Monts Pyrenées. Le Mont Liban.</seg></note>
+               <sense> <usg>Quand on dit absolument, </usg>Les Monts, on entend ordinairement les Alpes, comme dans ces phrases, <seg type="formula">Passer les monts. Repasser les monts. Au-delà des monts. Deçà les monts.</seg>
+               </sense>
+              <sense><usg>On appelle poëtiquement le Parnasse,</usg>  Le double mont.</sense>
+              <sense> <usg>On dit fig. &amp; fam. </usg><seg type="formula">Promettre des monts d'or à quelqu'un</seg>, pour dire, Lui promettre de grandes richesses, de grands avantages.
+               
+               <usg>On dit dans le même sens,</usg> <seg type="formula">Promettre monts &amp; merveilles.</seg>
+              </sense>
+              <sense>
+               On dit aussi, <seg type="formula">Vous me donneriez un mont d'or, des monts d'or,</seg> que je n'en ferois rien, pour dire, Vous me donneriez toutes sortes de choses. Et, Cela lui coûte des monts d'or, pour dire, Cela lui coûte excessivement.
+              </sense>
+              <sense>
+               <usg>On dit proverbialement,</usg> <seg type="formula">Par monts &amp; par vaux,</seg> pour dire, Deçà, delà, en toutes sortes d'endroits, de tous côtés. Aller par monts &amp; par vaux. On le cherche par monts &amp; par vaux.
+               </sense>  
+               <sense>
+               On appelle <seg type="proper_noun">Monts de piété,</seg> Certains lieux en Italie &amp; en quelques autres pays, où l'on prête ou sur des nantissemens sans intérêt, ou à un intérêt fort modique.
+               </sense>
+               <sense>
+               <usg>On appelle à la guerre,</usg> <term xml:id="Mont-pagnote">Mont-pagnote,</term><def>Une éminence d'où l'on regarde sans aucun péril, ce qui se passe dans une attaque de place, dans un combat.</def> 
+                 <cit><quote>Pendant l'action, il se tint sur le mont-pagnote. Il est du style familier. </quote></cit>
+               </sense>
+            </sense></entry>
+            
+            <entry ana="#Mont"><ref ana="#Larousse1856">Larousse</ref>
+            <form><orth>MONT</orth><gramGrp><pos>n.</pos><gen>m.</gen></gramGrp></form>
+           <sense> <def><seg corresp="#mass_of_earth">Grande masse de terre </seg><seg corresp="#isolated">isolée</seg> et <seg corresp="#raised_ground #above_ground_level">élevée au-dessus du sol</seg></def>
+            <note><seg type="proper-noun">mont Etna</seg></note>
+              <usg>Fig. <seg type="proverb">Promettre monts et merveilles,</seg> faire des promesses axagérées; 
+                 <seg type="proverb">par monts et par vaux,</seg> de tous côtés.</usg>
+               <note>Absol. <hi>Les Monts, </hi> les Alpes.</note></sense>
+            </entry>
+            
+            <entry><ref ana="#Littré1873">Littré</ref></entry>
+        
+           <entry ana="#Mont"><ref ana="#Imbs1971">TLFi</ref>
+           <form><orth>MONT</orth></form>
+              <sense><sense>I.<note> [Non suivi de nom propre] A. Au sing.</note><def> <seg corresp="#raised_ground #natural_raised_ground">Importante élévation naturelle de terrain</seg> <seg corresp="#higher_than_surrounds">au-dessus du sol environnant</seg> et dont la surface coïncide totalement ou approximativement avec <seg corresp="#anticlinal">une voûte anticlinale</seg>.</def>
+              <seg type="collocation">Descendre, escalader, gravir le mont; le mont se dresse, se profile; cime, flanc, sommet, versant du mont; mont boisé, élevé. </seg>
+                 <cit><quote>
+                    Une abbaye se montroit au haut d'un mont; au pied de ce mont, dans une anse caillouteuse, apparoissoient les toits rouges de la petite ville de Santa-Crux . </quote><bibl>(CHATEAUBR., Essai Révol., t.2, 1797, p.382)</bibl></cit>
+                    <cit><quote>Les chevaux franchissant le mont et le val </quote><bibl ana="#Col_ISN0000000121380055">(COLETTE, <title ana="#Dialog_betes_1905">Dialog. bêtes,</title> 1905, p.84):</bibl></cit>
+                 <cit><quote>1. Des villages d'en bas, les cloches montèrent. De l'un d'abord, nid blotti dans un creux, au pied de la montagne, avec ses toits de chaumes bariolés, noirs et blonds, revêtus de mousse épaisse, comme du velours. Puis, d'un autre, invisible, sur l'autre versant du mont.
+                    </quote><bibl ana="#Roll_ISN0000000121386406">ROLLAND, <title ana="#J_Chr_Buisson_ard_1911">J.-Chr., Buisson ard.,</title> 1911, p.1416.</bibl></cit>
+                 <note><abbr n="Remarque">REM</abbr> Les ex. rendent compte de la différence que DUPRÉ 1972 établit entre montagne et mont, ce dernier désignant une «masse individuelle rocheuse qui apparaît détachée, isolée et s'apercevant d'un seul coup d'œil». Mais mont, le plus souvent n'est que le synon. de montagne.</note>
+              </sense>
+                 <sense><note>Au plur., poét. et littér. </note><def>Hauteur.</def>
+                    <cit><quote>De sa lèvre renflée il approche à l'instant Une corne qu'un buffle a brisée en luttant; Il y souffle le vent de sa bruyante haleine, Que l'écho fait vibrer sur les monts et la plaine </quote><bibl ana="#Lamart_ISN0000000121441161">(LAMART., <title ana="#La_chute_d_un_ange_1838">Chute, 1838, p.892)</title>:</bibl></cit></sense></sense>
+              <sense>II<note> [Accompagné ou suivi d'un nom propre ou d'un déterm.]</note>
+                 <sense><def>Montagne désignée par un nom propre. </def>
+                    <seg type="proper_noun">Mont-Blanc, Mont-Cenis, Mont-Sinaï, Mont Saint Bernard, les moines du Mont Athos.</seg>
+                    <cit><quote>J'ai visité le Mont Saint-Michel que je ne connaissais pas .</quote><bibl ana="#Maup_ISN0000000121258201">(MAUPASS., <title ana="#Maupassant_Horla">Contes et nouv., t.2, Horla, 1886,</title> p.1101)</bibl></cit>
+                    <cit><quote>2.<lg><l> Vent des monts aux bruyantes ailes,</l>
+                       <l> Voisin des astres radieux,</l>
+                       <l> Pousse, au fond des noires chapelles,</l>
+                       <l>Ton air libre où meurent les dieux!</l>
+                      
+                   </lg></quote><bibl>BOUILHET, Dern. chans., 1869, p.207.</bibl></cit>
+                 </sense>
+                 <sense><def>Montagne désignée par une quelconque détermination.</def>
+                    <seg type="proper_noun">Les Monts d'Arrée, d'Auvergne, du Cantal; le Mont des Géants; le Grand Mont; le Petit Mont.</seg></sense>
+                 <note>Double Mont, Mont sacré. Le Parnasse. (Ds Ac., LITTRÉ).</note>
+                 <note>Vx. <term ana="#Mont-pagnote">Mont pagnote</term>*</note>
+              </sense>
+              <etym>Étymol. et Hist. 
+                 1. a) Fin du Xe s. «élévation, hauteur» (Passion, éd. D'A. S. Avalle, 323); b) fin du Xe s. dans des expr. géogr. (ibid., 18: mont Olivet); 
+                 2. a) 1176 en un mont «en un tas» (CHRÉTIEN DE TROYES, Cligès, éd. A. Micha, 3458); b) 1180-90 «grande quantité» (ALEXANDRE DE PARIS, Alexandre, I, 650 in Elliott Monographs, 37, p.15: les mons de deniers); c) 1690 des monts d'or «des avantages considérables» (FUR.: Il m'a fait esperer des monts d'or); 
+                 3. ca 1245 et mont et val (PHILIPPE MOUSKET, Chron., 22119 ds T.-L.); XIIIe s. par mons, par vaus (Trois dits, éd. G. Raynaud, III, 20, ibid.); 1611 par monts et par vaux (COTGR.); 
+                 4. 1564 chirom. (RONSARD, Nouv. poesies ds Œuvres compl., éd. P. Laumonier, t.12, p.185); 5. 1640 mont de Venus (OUDIN Curiositez). 
+                 Du lat. montem, acc. de mons «montagne». </etym>
+           </entry> 
+            
+         </div>
+         <div n="Montagne" xml:id="Montagne"><head>Montagne</head>
+            
+            <entry ana="#Montagne"><ref ana="#Nicot1606">Nicot</ref><form><ref ana="#Mont">Montagne</ref></form></entry>
+            
+            <entry ana="#Montagne"><ref ana="#Furetière1690">Furetière</ref>
+               <form><orth>MONTAGNE</orth></form>
+               <sense><usg>C’est le vray synonyme de mont;</usg><note> &amp; cependant il y a quelques lieux où l’un employe plus agreablement qu'en d’autres, car on it les montagnes d’Aubergine, &amp; non pas les monts; &amp; on dit les monts Pyrénées, &amp; non pas les montagnes Pyrénées. 
+               </note></sense> 
+               <cit><quote>Un pays de <hi>montagnes</hi> est bossu &amp; inégal. </quote></cit>
+               <cit><quote>Cette <hi>montagne</hi> est rude, difficile à monter. </quote></cit>
+               <cit><quote>Les bandits , les seditieux ont leurs retraites dans les <hi>montagnes</hi>. </quote></cit>
+               <cit><quote>Cette armée s’est saisie des pas des <hi>montagnes</hi>.</quote></cit>
+              
+               <etym>Menage dit que ce mot vient <foreign>de montana</foreign>, qui este dit pour <hi>Mons</hi>.</etym>
+               <sense><note>On dit proverbialement, il n’y a point de montagne sans vallée. On dit que la montagne est accouchée d’une souris, pour dire, que les belles esperances qu’on avait d’un grand dessein ont aboutu à rien.</note></sense></entry>
+            
+            
+            <entry ana="#Montagne"><ref ana="#Furetière1701">Basnage</ref>
+         <form><orth>MONTAGNE</orth></form>
+            <note>C’est le vrai synonyme de mont; &amp; cependant il y a quelques occasions où l’un doit être employé plutôt que l’autre; 
+               car on it les montagnes d’Aubergine, &amp; non pas les monts; &amp; on dit les monts Pyrénées, &amp; non pas les montagnes Pyrénées.[…] Cette montagne est rude, difficile à monter …
+              </note>
+               <cit><quote>Un pays de <hi>montagnes</hi> est bossu &amp; inégal. </quote></cit>
+               <cit><quote>Cette <hi>montagne</hi> est rude, difficile à monter. </quote></cit>
+               <note>Dans le Paganisme on s'imaginoit que dans les plus hautes montagnes étoilent la demeure des certaines Divinitez.</note>
+               <cit><quote>Les Syriens battus par les Israëlites disaient à Benhadad leur Roi; ils ont été les plus forts, parceque leurs Dieux sont les des Dieux de montagnes; mais combattons dans la plaine
+               </quote><bibl>1. Liv. des Rois Ch 20</bibl></cit>
+               <cit><quote>Les bandits , les seditieux ont leurs retraites dans les <hi>montagnes</hi>. </quote></cit>
+               <cit><quote>Cette armée s’est saisie des pas des <hi>montagnes</hi>.</quote></cit>
+               <cit><quote>Grimper sur une montagne.</quote><bibl ana="#Abl_ISN0000000107866286">ABLAN.</bibl></cit>
+               <etym><name ana="#Men_ISN0000000080815971">Menage</name> dit que ce mot vient de montana, qui a été dit pour Mons.</etym>
+         </entry>
+            <entry ana="#Montagne"><ref ana="#Académie_Française1762a">Academie Française</ref>
+              <form><orth>MONTAGNE</orth><gramGrp><pos> s.</pos><gen>f.</gen></gramGrp></form>
+               <def>  <ref type="synonym">Mont</ref>, <seg corresp="#mass_of_earth #mass_of_rock">grande masse de terre ou de roche </seg><seg corresp="#above_ground_level #great_height">fort élevée au-dessus du reste de la surface de la terre.</seg></def>
+              <note><seg type="colloc">Grande montagne. Haute montagne. Montagne élevée, rude, escarpée. Le sommet, le haut, 
+                 la cime d'une montagne. Le penchant, la pente, la descente, le pied d'une montagne. Monter une montagne.Passer, traverser une montagne. Gagner le haut de la montagne.</seg>
+              <seg type="proper_noun">Les montagnes d'Auvergne. </seg>
+              <seg type="formula">Pays de montagnes. Une chaîne de montagnes, pour dire, Une suite de montagnes qui se touchent l'une l'autre.</seg></note>
+               <usg>Lorsqu'après s'être attendu à quelque chose de grand &amp; d'extraordinaire, le succès n'aboutit à rien de considérable, on dit proverbialement, que <seg type="proverb">La montagne a enfanté une souris.</seg>
+               </usg>
+               <usg>On dit proverbialement, <seg type="proverb">Deux montagnes ne se rencontrent point, mais les hommes se rencontrent;</seg> &amp; cela se dit ou par menace, pour faire entendre à un homme qu'on trouvera occasion de se venger de lui; ou lorsqu'on rencontre inopinément quelqu'un qu'on ne s'attendoit pas de voir.
+               </usg>
+               <usg>On dit communément, qu'<seg type="proverb">Il n'y a point de montagne sans vallée.</seg></usg>
+                </entry>
+            
+            <entry ana="#Montagne"><ref ana="#Larousse1856">Larousse</ref>
+               <form><orth>MONTAGNE</orth><gramGrp><pos>n.</pos><gen>f.</gen></gramGrp></form>
+               <def>Masse de terre ou de roche élevée au-dessus du terrain qui l'environne</def>
+               <usg> Fig. <seg type="formula">Montagne de glaces,</seg> amas considérable de glaces, qu'on rencontre surtout dans les mers polaires.</usg>
+            <note></note>
+            </entry>
+            
+            <entry ana="#Montagne"><ref ana="#Imbs1971"></ref>
+            <form><orth>MONTAGNE</orth><gramGrp><pos>subst</pos><gen>fem</gen></gramGrp></form>
+               <sense>I.<def><seg corresp="#higher_than_surrounds #raised_ground">Forme de relief consistant en élévations importantes de terrains</seg>, <seg corresp="#caused_by_rising_of_ground">résultant d'un soulèvement du sol</seg> et <seg corresp="#major_difference_of_level #has_summit #above_valley">caractérisée par une forte dénivellation entre <ref>sommets</ref> et fonds de <ref>vallées</ref>.</seg></def>
+                  <seg type="collocations">Belle, grande, haute, petite montagne; montagne alpine, aride, dégagée, élevée, granitique, lointaine, moyenne, neigeuse, voisine; cirque, crête, groupe, ligne, massif, sommet, système de montagnes; en haut, en bas,
+                   au milieu, au pied de la montagne; sur la montagne.</seg>
+                  <cit><quote>Le tout résulte de mouvements latéraux de refoulement (...) dont les effets déterminent les traits principaux du relief terrestre, en premier lieu les montagnes </quote><bibl ana="#Lapparent_ISN000000012120991X">(LAPPARENT, <title ana="#Abrege_de_geologie">Abr. géol., 1886,</title> p.398).</bibl></cit>
+                  <cit> <quote>   De hautes montagnes, dont le géologue décèle les racines indubitables, ont été littéralement arasées. Leurs débris devenus sédiments ont, plus tard, surgi des eaux pour former d'autres montagnes, qui seront à leur tour nivelées
+                  </quote><bibl ana="#Combaluzier_ISN0000000364660676"> (COMBALUZIER, <title ana="#Introduction_a_la_geologie_1961">Introd. géol., 1961,</title> p.78):</bibl></cit>
+                     <cit> <quote>    1. Laissant de côté les «horst», volcans et autres montagnes du profane qui, malgré parfois deux ou trois milliers de mètres d'altitude, ne présentent pas grand intérêt tectonique, étudions sommairement les chaînes plissées qui sont les vraies montagnes de géologues.
+                     </quote><bibl ana="#Combaluzier_ISN0000000364660676">COMBALUZIER, <title ana="#Introduction_a_la_geologie_1961">Introd. géol., 1961</title> p.134.</bibl></cit>
+                  <note><abbr>Rem.</abbr> 1. Quand montagne est joint à un nom de lieu on met le plus souvent la prép. de, p. oppos. à mont qui ne la prend guère (Montagne de Judée, du Liban, de Sion); mais il peut y avoir des exceptions (la Montagne Sainte-Victoire, la Montagne Sainte-Geneviève): D'une amitié passionnée Vous me parlez encor, Azur, aérien décor, Montagne Pyrénée (TOULET, Contrerimes, 1920, p.44). 2. À part les Alpes, les Pyrénées, les Cordillères, les Vosges qui sont au fém., les noms des massifs montagneux sont le plus souvent au masc. (ex. le Jura).</note>
+               </sense>
+               <sense>II. <def>Ensemble d'élévations importantes constituant une région de forte altitude; p. méton., lieu de séjour et de vacances.</def>
+               <seg type="collocations">Chalet, climat, fleur, fromage, gibier, lacet, orage, pays, plante, région, torrent, rivière, station de montagne;
+               escalader, gravir, habiter la montagne; marcher en montagne; monter sur la montagne; passer des vacances à la montagne;
+               séjourner à la montagne; aller à la montagne (fam.).</seg>
+                  <cit><quote> Ils partaient seuls sur les <seg type="collocation">sentiers de la montagne</seg> </quote><bibl>(GIONO, Colline, 1929, p.127).</bibl> </cit>
+                  <cit> <quote>Parmi les conditions qui lui [le nerveux] sont favorables, on compte encore l'élément boisé, l'air des montagnes, les changements assez fréquents d'horizon </quote>
+                     <bibl>(MOUNIER, Traité caract., 1946, p.187).</bibl></cit></sense>
+               <etym>Étymol. et Hist. 1. Ca 1100 «importante élévation de terrain» (Roland, éd. J.Bédier, 6); 
+                  2. Ca 1100 les, la montagne(s) «zone, région de forte altitude» (ibid., 2040); 
+                  3. 1644 fig. «amas, amoncellement» (CORNEILLE, Pompée, I, 1); 4. 1761 montagne «(dans les Alpes) pâturage de haute altitude, appartenant à une collectivité ou à un particulier» (Mém. de la Société oeconomique, 388 ds PIERREH.); 
+                  5. 1792 la Montagne «les bancs les plus élevés de l'assemblée conventionnelle, où siégeaient les députés de gauche» (BRUNOT t.9, p.631, note 3); 
+                  6. a) 1816 Montagnes russes «élévation naturelle ou artificielle du haut de laquelle on se laisse glisser en traîneau sur un chemin uni» (MAINE DE BIRAN, Journal, p.237); b) 1945 «suite de montées et de descentes» (SARTRE, Sursis, p.120). 
+                  Du b. lat. montanea, fém. subst. de l'adj. b. lat. *montaneus, lat. class. montanus «relatif à la montagne». 
+                 </etym>
+            </entry>
+
+<entry><cit><quote></quote><cit><quote></quote></cit></cit></entry>
+         </div>
+         
+         <div n="associates">
+       
+            <entry xml:id="plaine"><form><orth>PLAINE</orth></form><xr>Plain</xr></entry>
+            <entry xml:id="vallet"><form><orth>VALLET</orth></form><xr>Valley</xr></entry>
+            <entry xml:id="sommet"><form><orth>SOMMET</orth></form><xr>Summit</xr></entry>
+         </div>
+       
+         
+         <div n="translations"><list>
+            <item xml:base="https://en.wikipedia.org/wiki/The_Opposing_Shore">The Opposing Shore <bibl ana="#Gracq_ISN0000000121434842">Gracq</bibl></item>
+            <item>And the servants of the king of Syria said unto him, Their gods are gods of the hills; therefore they were stronger than we; but let us fight against them in the plain, and surely we shall be stronger than they.<bibl>1 Kings 20, 23</bibl>
+               <note type="encoder">This is a counter example as only in English do we find 'hill' and not 'mountain'</note></item>
+         
+         </list></div>
+        
+        
+      </body>
+  </text>
+</TEI>
